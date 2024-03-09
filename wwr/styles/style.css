@@ -12,6 +12,9 @@
 .button-box {
     text-align: center; /* Center text within the button box */
 }
+main{
+    margin-bottom: 100px;
+}
 main section {
     text-align: center; /* Center text within main section */
 }
@@ -19,9 +22,33 @@ main section img {
     box-sizing: border-box;
 }
 #background {
-        height: 725px;
-        background-color: rgb(131, 182, 167);
+    position: relative;
+    height: 600px;
+    background-color: rgb(192, 190, 128);
 }
+.mountains{
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    z-index: 1;
+    
+}
+
+.msg {
+    /* Add background color for the message section */
+    position: absolute;
+    top: 150px;
+    right: 140px;
+    z-index: 2;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #6f7363;
+    line-height: 1.5em;
+    padding: 35px;
+    width: 600px;
+    height: 200px;
+}
+
 body{
     background-color: #fcfbfb;
     font-family: Oswald,'Roboto Slab', sans-serif;
@@ -31,9 +58,16 @@ body{
 }
 
 header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 150px auto;
     background-color: rgba(184, 206, 187, 0.7); /* Set the background color for the header */
 }
 
+nav{
+    display: flex;
+    justify-content: space-around;
+}
 nav a:hover {
     background-color: rgb(91, 92, 180); /* Set the background color for navigation links on hover */
     color: #fcfbfb;
@@ -54,18 +88,25 @@ nav a:hover {
     background-color: rgb(181, 144, 182);
     color: blue;
 }
-.msg {
-    /* Add background color for the message section */
-    background-color: #6f7364;
-    line-height: 1.5em;
-    padding: 35px;
+
+.triple{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
 }
+
 .msg p {
     font-size: .8em;
 }
 footer {
-    background-color: rgb(109, 168, 92); /* Set the background color for the footer */
-    color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    background-color: #6f7363; /* Set the background color for the footer */
+    color: rgb(192, 190, 128);
+    margin-top: 20px;
+    
 }
 .home-title {
     color: black;
@@ -83,7 +124,7 @@ h4 {
     color: rgb(17, 115, 212);
 }
 footer a {
-    color: rgb(59, 71, 233);
+    color:rgb(192, 190, 128);
     text-decoration: none;
 }
 footer a :hover {
@@ -103,19 +144,17 @@ footer a :hover {
     width: 80px;
     padding-top: 10px;
 }
-footer p {
-    font-size: 1.4em;
-}    
-footer {
-    padding: 25px 50px;
 
-}
+
 footer .social img {
     padding-top: 15px;
-    margin-top: 200px;
+    
 }
 .rivers-card, .camping-card, .rapids-card{
+
+    padding: 50px;
     margin: 200px 0;
+    
 }
 .card-img {
     border: 10px solid #d9c2a3;
