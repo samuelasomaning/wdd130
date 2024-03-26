@@ -159,3 +159,32 @@ footer .social img {
 .card-img {
     border: 10px solid #d9c2a3;
 }
+
+/*  rivers css */
+#hero1 {
+    position: relative;
+    align-items: center;
+}
+.hero1-image {
+    width: 100%;
+    height: auto;
+}
+.hero1-txt {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: rgb(209, 36, 36);
+    font-size: 30px;
+}
+.hero1-button {
+    position: absolute;
+    top: 85%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: rgb(209, 67, 57);
+    font-size: 65%;
+
+}
