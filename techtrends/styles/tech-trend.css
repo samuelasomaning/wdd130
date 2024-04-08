@@ -8,7 +8,21 @@ body {
     text-align: center;
     align-content: center;
     background-color: rgb(201, 198, 198);
+    
       
+}
+.parallax {
+  /* The image used */
+  background-image: url("/techtrends/images/para-img.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .tech_logo{
   border-radius: 15px 50px 30px;
@@ -109,12 +123,14 @@ nav a:hover {
   }
   .enthusiast, .student, .prof {
     display: flex;
+    
   }
   .student-img {
-    align-items: end;
+    float: right;
+    margin-right: 20px;
   }
   .student-msg {
-    align-items: start;
+   float: left;
   }
   .features {
     text-align: center;
@@ -134,6 +150,21 @@ hr {
   overflow: hidden;
   border-style: inset;
   border-width: 1px;
+}
+.caption span.border {
+  background-color: #ff9900;
+  color: #213f99;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
 }
 
 /* about css */
