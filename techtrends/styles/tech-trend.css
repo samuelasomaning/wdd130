@@ -13,7 +13,7 @@ body {
 }
 .parallax {
   /* The image used */
-  background-image: url("/techtrends/images/para-img.jpg");
+  background-image: url("/techtrends/images/para-img.png");
 
   /* Set a specific height */
   min-height: 500px;
