@@ -151,14 +151,14 @@ hr {
   border-style: inset;
   border-width: 1px;
 }
-.caption span.border {
+.caption1 span.border {
   background-color: #ff9900;
   color: #213f99;
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
 }
-.caption {
+.caption1 {
   position: absolute;
   left: 0;
   top: 50%;
