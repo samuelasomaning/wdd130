@@ -59,7 +59,7 @@ footer {
 #contact {
     padding: 10px;
     background-color: rgb(204, 245, 245);
-    align-items: center;
+    align-self: stretch;
 }
 li a {
     color: rgb(255, 9, 181);
