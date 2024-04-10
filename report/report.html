@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Personal Website</title>
+    <link rel="stylesheet" href="styles/report.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to TechTrends Website</h1>
+        <nav>
+            <ul>
+                <li><a href="https://samuelasomaning.github.io/wdd130/techtrends/index.html">TechTrends</a></li>
+                <li><a href="https://samuelasomaning.github.io/wdd130/techtrends/reviews.html">Reviews</a></li>
+                <li><a href="https://samuelasomaning.github.io/wdd130/techtrends/about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="report">
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>I am Samuel Asomaning, a software developer student at BYU-Idaho and a passionate web developer...</p>
+        </section>
+        
+        <section id="about">
+            <h2>TechTrends</h2>
+                <p>TechTrends is your ultimate destination for staying ahead in the fast-paced world of technology. Explore the latest trends, discover groundbreaking innovations, and gain insights from expert analyses.</p>
+                <li><a href="https://samuelasomaning.github.io/wdd130/techtrends/index.html">TechTrends</a></li>
+        </section>
+        <section id="rev">
+                <h2>Reviews</h2>
+                    <p>Discover comprehensive and unbiased reviews of the latest tech products in the market. From smartphones to wearables and everything in between, our detailed assessments help you make informed purchasing decisions.</p>
+                    <li><a href="https://samuelasomaning.github.io/wdd130/techtrends/reviews.html">Reviews</a></li>
+        </section>
+        <section id="ab">
+                <h2>About</h2>
+                    <p>Learn more about TechTrends - our mission, vision, and the dedicated team behind our content. Dive into our editorial principles, explore our journey, and meet the passionate minds driving our commitment to delivering top-notch tech insights.</p>
+                    <p class="pp"><li><a href="https://samuelasomaning.github.io/wdd130/techtrends/about.html">About</a></li></p>
+        </section>
+    </div>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <form class="form1" action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Samuel Asomaning - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
